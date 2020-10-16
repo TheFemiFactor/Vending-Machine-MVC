@@ -1,0 +1,88 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 23, 2017, 4:20:31 PM
+    Author     : apprentice
+*/
+
+
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Quicksand Regular'), local('Quicksand-Regular'), url(https://fonts.gstatic.com/s/quicksand/v6/sKd0EMYPAh5PYCRKSryvW5Bw1xU1rKptJj_0jans920.woff2) format('woff2');
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-family: Quicksand, sans-serif;
+    text-align: center;
+    font-weight: 2000;
+    font-size: 50pt;
+    /*border-bottom: 1px;*/
+    border-bottom-style: ridge;
+    border-color: rgb(0, 0, 0);
+
+}
+
+.box {
+    border-radius: 15px;
+    margin: 15px;
+    border: 1px solid black;
+    float: left;
+    padding: 10px;
+    width: 160px;
+    height: 160px; 
+}
+
+
+#priceEntered{
+    text-align: right;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.turqoise {
+    background-color: rgb(255, 255, 255);
+}
+
+h3{
+    text-align: center;
+    font-family: Quicksand, sans-serif;
+}
+
+#formId{
+    border-bottom-style: ridge;
+    border-color: rgb(0, 0, 0);
+    padding-bottom: 30px;
+}
+
+p{
+    text-align: center;
+}
+
+.btn {
+    width: 25%;
+    background-color: #265a88 ;
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 1px;
+    cursor: pointer;
+}
+
+input{
+    padding: 5px;
+    margin: 4px;
+    width: 60%;
+}
